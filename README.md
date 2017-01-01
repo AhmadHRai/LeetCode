@@ -31,7 +31,7 @@ You can navigate through the different problems by browsing the directories. Eac
 
 Feel free to explore, learn from the solutions, and provide feedback. If you find a better approach or a mistake in any of the solutions, I'd love to hear about it.
 
-## Contributing
+<!-- ## Contributing
 
 Contributions are welcome! If you have a better solution or an alternate approach to a problem, or if you find any issues with the existing solutions, feel free to open an issue or submit a pull request. Please ensure that your contributions follow the repository's coding style and documentation standards.
 
@@ -40,7 +40,7 @@ Contributions are welcome! If you have a better solution or an alternate approac
 If you'd like to connect with me, you can reach me through the following channels:
 
 - Email: ahmadhalraie@gmail.com
-- LinkedIn: [Ahmad Alrai](https://www.linkedin.com/in/ahmadalrai)
+- LinkedIn: [Ahmad Alrai](https://www.linkedin.com/in/ahmadalrai) -->
 
 ## License
 
