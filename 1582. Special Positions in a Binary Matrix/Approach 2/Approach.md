@@ -1,4 +1,4 @@
-#### **_Brute Force Approach_**
+#### **Brute Force Approach**
 
 1.  It iterates through each element of the matrix, checking if it equals 1.
 2.  For each element that equals 1, it checks the entire row and column to see if there are any other '1's apart from the current row or column.
