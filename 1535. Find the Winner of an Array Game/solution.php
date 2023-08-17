@@ -41,11 +41,11 @@ Approach
 This approach ensures that we only iterate through the list once, making the solution efficient.
 Complexity
 
-    Time complexity: O(n)O(n)O(n)
+    Time complexity: O(n)
     The solution iterates through the array once. In the worst-case scenario, we examine all elements in the array. Hence, the time complexity is linear with respect to the size of 
     the array.
 
-    Space complexity: O(1)O(1)O(1)
+    Space complexity: O(1)
     The solution uses a constant amount of extra space: a few variables to keep track of the current winner and the consecutive win count. Regardless of the size of the input, the 
     space used remains constant.
  -->
