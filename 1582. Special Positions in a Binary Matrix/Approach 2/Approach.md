@@ -8,7 +8,7 @@
 # Complexity
 
 - _Time complexity:_\
-  O ( m . n . (m + n)))
+  O ( m . n . (m + n))
 
 - _Space complexity:_\
   O(1)
