@@ -12,8 +12,8 @@ Welcome to my LeetCode Solutions repository! This is a collection of my solution
 
 - [About](#about)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
+  <!-- - [Contributing](#contributing) -->
+  <!-- - [Contact](#contact) -->
 - [License](#license)
 
 ## About
