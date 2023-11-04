@@ -27,7 +27,7 @@ function buildArray($target, $n) {
     Completion: Once we've reached the last number in the target list, we can be sure that we've constructed the target list in the stack and stop our operations.
 
 Complexity
-
+    
     Time complexity: O(n). The iteration goes up to the last element of the target list, which could be as large as nnn. Each operation (push/pop) is O(1).
     Space complexity: O(1). While the result list can grow up to the size of the target list, we're only using a constant amount of extra space in our solution (ignoring the space required for the output list).
 
