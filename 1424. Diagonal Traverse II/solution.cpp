@@ -37,3 +37,8 @@ public:
         return ans;
     }
 };
+
+/* 
+The time complexity of this solution is O(n), where n is the total number of elements in the input vector. This is because we need to visit each element once and perform constant time operations on each element. 
+The space complexity is O(n), where n is the total number of elements in the input vector. This is because we need to store the result vector and the queue, which take O(n) space in the worst case.
+ */
