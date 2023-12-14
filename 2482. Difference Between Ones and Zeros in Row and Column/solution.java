@@ -39,3 +39,19 @@ class Solution {
         return res;        
     }
 }
+
+/* 
+Approach
+
+    1. Initialize arrays rowOnes and colOnes to store the count of ones in each row and each column, respectively.
+    2. Traverse the grid matrix to populate the rowOnes and colOnes arrays.
+    3. Iterate through the grid matrix again and calculate each element of the diff matrix using the provided formula.
+    4. Update each element of the grid matrix with the calculated difference.
+    5. Return the modified grid matrix as the resulting diff.
+    
+
+Complexity
+
+    Time complexity: O(m x n), where (m) is the number of rows and (n) is the number of columns in the grid matrix.
+    Space complexity: (O(m + n) for the rowOnes and colOnes arrays.
+ */
