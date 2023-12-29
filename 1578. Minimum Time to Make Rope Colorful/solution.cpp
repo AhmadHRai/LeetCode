@@ -30,5 +30,5 @@ Approach:
 
 Complexity:
     The time complexity is O(n) as we only traverse the array once. 
-    The space complexity is O(1) as we only use constant extra space.
+    The space complexity is O(1) as we only use constant extra space. 
 */
