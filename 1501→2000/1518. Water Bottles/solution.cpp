@@ -18,6 +18,5 @@ Approach
 Complexity
 
     Time complexity: O(1), since the solution involves only arithmetic operations.
-    
     Space complexity: O(1), as no extra space is used beyond the input variables.
  */
