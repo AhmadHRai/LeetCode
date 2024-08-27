@@ -18,7 +18,8 @@ var twoSum = function(nums, target) {
 	return [];
 };
 
-/* The time complexity of this solution is O(n), where n is the length of the array. This is because we use one loop to iterate through the array, and each lookup and insertion in 
+/* 
+The time complexity of this solution is O(n), where n is the length of the array. This is because we use one loop to iterate through the array, and each lookup and insertion in 
 the map takes O(1) time.
 The space complexity of this solution is O(n), because we use a map to store n elements and their indices in the worst case.
  */
