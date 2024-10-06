@@ -1,3 +1,8 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
 class Solution {
 public:
     bool areSentencesSimilar(string sentence1, string sentence2) {
