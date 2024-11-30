@@ -84,6 +84,13 @@ private:
 
     5. Finally, we reverse the collected edges to produce the correct order of the Eulerian Path.
 
-    Time Complexity: O(N), where N is the number of pairs (edges).
-    Space Complexity: O(N), as we store the graph and degree information.
+    Time Complexity: O(m + n), where:
+        m is the number of pairs (or edges) in the input (pairs.size()).
+        n is the number of distinct nodes in the graph (the unique integers present in the pairs).
+
+    Space Complexity: O(m + n), which includes:
+        Graph Representation: O(m + n) for storing edges and nodes in the adjacency list.
+        In-Degree and Out-Degree Maps: O(n) for tracking in-degrees and out-degrees of distinct nodes.
+        Result Storage: O(m) for storing the edges of the Eulerian Path.
+
 */
