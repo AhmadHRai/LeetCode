@@ -29,7 +29,13 @@ Approach:
 5. For 'R' characters, ensure that they are not moved to the left (i.e., their position in s must not be greater than their position in t).
 6. Return true if the strings can be transformed into each other, otherwise return false.
 
-Key Algorithm: This approach uses two pointers to track and compare characters from both strings, while skipping underscores. It also enforces movement restrictions on 'L' and 'R' characters.
+This approach uses two pointers to track and compare characters from both strings, while skipping underscores. It also enforces movement restrictions on 'L' and 'R' characters.
+
+Difference:
+1- Memory Usage: This solution uses the reference to the strings (string& s, string& t), ensuring no extra memory is used for copying the strings, which makes it slightly more memory-efficient.
+2- Pointer Management: loop uses a combined approach with a single for loop, incrementing both i and j simultaneously.
+3- Code Structure: The loop structure is more compact, with fewer lines of code, iterating over both strings in a single loop.
+4- Performance: This solution has slightly better memory performance, as it avoids copying the input strings. It also uses a more compact loop structure, which might result in marginally better performance for larger inputs.
 
 Complexity Analysis:
 - Time Complexity: O(n), where n is the length of the strings. We iterate through both strings once, making comparisons and skipping underscores.
