@@ -32,8 +32,22 @@ private:
 };
 
 /*
-The time complexity of the dfs function in the code is O(n), where n is the number of nodes in the binary tree. This is because the function visits each node in the tree 
-exactly once, and the time required to visit each node is constant. The space complexity of the function is O(h), where h is the height of the tree. This is because the 
-function uses a recursive approach to traverse the tree, and the maximum depth of the recursion is equal to the height of the tree. Therefore, the space required by the 
-function on the call stack is proportional to the height of the tree
+- Intuition:
+    The problem requires finding the largest value at each level of a binary tree. By performing a depth-first search (DFS), 
+    we can traverse each node while keeping track of the level depth. During traversal, we update the maximum value for each level in a result vector.
+
+- Algorithm:
+    1. Initialize an empty result vector `res` to store the largest values at each level.
+    2. Perform a DFS traversal:
+       - If the current node is null, return.
+       - Traverse the left and right subtrees recursively, increasing the depth by 1.
+       - If the current depth exceeds the size of the result vector, resize the vector and initialize new levels to `INT_MIN`.
+       - Update the maximum value for the current level by comparing the node's value with the existing value in the result vector.
+    3. Return the result vector containing the largest values for each level.
+
+- Complexity:
+    Time Complexity: O(n)
+        - Each node in the binary tree is visited exactly once during the DFS traversal.
+    Space Complexity: O(h)
+        - The recursive calls use space proportional to the height of the tree `h` (call stack).
 */
