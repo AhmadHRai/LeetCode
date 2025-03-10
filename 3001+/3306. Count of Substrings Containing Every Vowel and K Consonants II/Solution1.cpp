@@ -5,11 +5,15 @@ public:
     }
 
 private:
+    // bool isVowel(char c) {
+    //     static const uint32_t vowelMask =
+    //         (1 << ('a' - 'a')) | (1 << ('e' - 'a')) | (1 << ('i' - 'a')) |
+    //         (1 << ('o' - 'a')) | (1 << ('u' - 'a'));
+    //     return vowelMask & (1 << (c - 'a'));
+    // }
+
     bool isVowel(char c) {
-        static const uint32_t vowelMask =
-            (1 << ('a' - 'a')) | (1 << ('e' - 'a')) | (1 << ('i' - 'a')) |
-            (1 << ('o' - 'a')) | (1 << ('u' - 'a'));
-        return vowelMask & (1 << (c - 'a'));
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'; // no tryhard version
     }
 
     long atLeastK(string word, int k) {
